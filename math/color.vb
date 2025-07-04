@@ -308,3 +308,32 @@ Module Green
     End Sub
 End Module
 Console.WriteLine(C2H4,C6H8,C14H12)
+
+Module XYZT
+Class SpherePoint
+    char X = r * Math.sin(theta) * Math.cos(fai)
+    char Y = r * Math.sin(theta) * Math.sin(fai)
+    char Z = r * Math.cos(fai)
+    char T = r * Math.sin(theta)
+    return X,Y,Z,T
+End Class
+
+Class SphereRadius
+    const SphereRadiusx = Math.sin(y) + Math.cos(z) 
+    const SphereRadiusy = Math.sin(x) + Math.cos(z) 
+    const SphereRadiusz = Math.sin(y) + Math.cos(x)
+    return SphereRadiusx, SphereRadiusy, SphereRadiusz
+End Class
+End Module
+
+const impact0 = "element1 + element2 + element3 + element4"
+const impact1 = "element5 - element6 - element7 - element8"
+const impact2 = "element9 * element10 * element11 * element12"
+const impact3 = "element13 / element14 / element15 /  element16"
+const impact4 = "element17 % element18 % element19 % element20"
+
+const impact5 = "impact0 * impact1" + "impact2 * impact3"
+const impact6 = "impact1 - impact2" + "impact3 - impact4"
+const impact7 = "impact2 / impact3" + "impact4 / impact0"
+const impact8 = "impact3 % impact4" + "impact1 % impact2"
+Console.WriteLine(impact0, impact1, impact2, impact3, impact4, impact5, impact6, impact7, impact8)
