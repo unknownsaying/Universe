@@ -24,8 +24,8 @@ Class det
 [1][0]
 [1][0]
  det9 =
-[1][1]
 [0][1]
+[1][1]
  det10 =
 [1][0]
 [1][1]
@@ -34,7 +34,7 @@ Class det
 [1][0]
  det12 =
 [1][1]
-[1][1]
+[0][1]
 end class
 Class tri      
       tri1 = [[1][0][1],
@@ -431,4 +431,5 @@ Sub SUM
      ["Pyramid" == "oppoPyramid"+"dimPyramid"]
     return SUM
 End Sub
+
 Console.WriteLine(DET,tri,ONE,Square,Pyramid,DETtri,triDET,ONEsquare,squareONE,oppoPyramid,dimPyramid)
