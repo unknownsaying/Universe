@@ -1,4 +1,4 @@
-#include "bin.c"
+
 int RETUrN(){
    char R,E,T,U,r,N;
    char a,b,c,d,e,f;
@@ -32,4 +32,5 @@ int RETUrN(){
    return t11 * exp(N + f) + t0 * log(N - f);
    return t11 * exp(N + a) + t0 * log(N - a);
    }
+
 }
