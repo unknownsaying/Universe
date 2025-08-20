@@ -1,3 +1,4 @@
+Imports System.Math
 class Red
      element1=
      [[1][0][0][0],
@@ -337,3 +338,4 @@ const impact6 = "impact1 - impact2" + "impact3 - impact4"
 const impact7 = "impact2 / impact3" + "impact4 / impact0"
 const impact8 = "impact3 % impact4" + "impact1 % impact2"
 Console.WriteLine(impact0, impact1, impact2, impact3, impact4, impact5, impact6, impact7, impact8)
+
