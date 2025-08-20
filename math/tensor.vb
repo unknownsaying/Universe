@@ -1,3 +1,4 @@
+Imports System.math
 Class smallxtensor
 1 = [[1][0][1],
      [0][1][0],
@@ -966,4 +967,5 @@ Nulltensor = Ntensor + NNtensor + NNNtensor
 Console.WriteLine(BigXtensor, midxtensor, smallxtensor, BigYtensor, midytensor, smallytensor, BigZtensor, midztensor, smallztensor)
 Console.WriteLine(zerotensor, onetensor, ninetensor)
 Console.WriteLine(innertensor, outertensor, inouttensor, outintensor, antiinouttensor, antioutintensor)
+
 Console.WriteLine(Nulltensor, Ntensor, NNtensor, NNNtensor)
