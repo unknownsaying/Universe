@@ -1,4 +1,4 @@
-Imports Math
+Imports System.Math
 Imports "lowerbit.c"
 Select 12345
 a =  [1][1][1]
