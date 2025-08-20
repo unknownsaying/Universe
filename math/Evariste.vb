@@ -1,5 +1,5 @@
 Imports System.Math
-Imports "lowerbit.c"
+Imports "bit.c"
 Select 12345
 a =  [1][1][1]
      [1][1][1]
@@ -83,3 +83,4 @@ a6 * z + b6 * z + c6 * z + d6 * z + e6 * z + f6 = ThreeFourThree
 a6 * z + b6 * z + c6 * z + d6 * z + e6 * z + f6 = FourFiveFour
 a6 * z + b6 * z + c6 * z + d6 * z + e6 * z + f6 = FiveSixFive
 End Sub
+
