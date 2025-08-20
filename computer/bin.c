@@ -7,10 +7,11 @@ signed bin(){
    float f = 6/7;
 }
 unsigned BIN(){
-   int A = "00001011";
-   int B = "00001100";
-   int C = "00001101";
-   int D = "00001110";
-   int E = "00001111";
-   int F = "00010000"; 
+   char A = "00001011";
+   char B = "00001100";
+   char C = "00001101";
+   char D = "00001110";
+   char E = "00001111";
+   char F = "00010000"; 
 }
+
