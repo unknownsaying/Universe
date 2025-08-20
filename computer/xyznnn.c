@@ -187,19 +187,20 @@ void gw(w1,w2,w3){
 
 //linear algebra
 signed fxyz(a,b,c,d,e,f,fw){
-    static const fx1 = 'a * x1' + 'b * x1' + 'c * x1' + 'd * x1' + 'e * x1' + 'f * w1';
-    static const fx2 = 'a * x2' + 'b * x2' + 'c * x2' + 'd * x2' + 'e * x2' + 'f * w2';
-    static const fy1 = 'a * y1' + 'b * y1' + 'c * y1' + 'd * y1' + 'e * y1' + 'f * w3';
-    static const fy2 = 'a * y2' + 'b * y2' + 'c * y2' + 'd * y2' + 'e * y2' + "f * w1'";
-    static const fz1 = 'a * z1' + 'b * z1' + 'c * z1' + 'd * x1' + 'e * y1' + "f * w2'";
-    static const fz2 = 'a * z2' + 'b * z2' + 'c * z2' + 'd * z2' + 'e * z2' + "f * w3'";
+    static fx1 = 'a * x1' + 'b * x1' + 'c * x1' + 'd * x1' + 'e * x1' + 'f * w1';
+    static fx2 = 'a * x2' + 'b * x2' + 'c * x2' + 'd * x2' + 'e * x2' + 'f * w2';
+    static fy1 = 'a * y1' + 'b * y1' + 'c * y1' + 'd * y1' + 'e * y1' + 'f * w3';
+    static fy2 = 'a * y2' + 'b * y2' + 'c * y2' + 'd * y2' + 'e * y2' + "f * w1'";
+    static fz1 = 'a * z1' + 'b * z1' + 'c * z1' + 'd * x1' + 'e * y1' + "f * w2'";
+    static fz2 = 'a * z2' + 'b * z2' + 'c * z2' + 'd * z2' + 'e * z2' + "f * w3'";
 }
 //five degree equation
 unsigned gxyz(A,B,C,D,E,F,gw){
-    static const gx1 = 'A * x1^5' + 'B * x1^4' + 'C * x1^3' + 'D * x1^2' + 'E * x1' + 'w1';
-    static const gx2 = 'A * x2^5' + 'B * x2^4' + 'C * x2^3' + 'D * x2^2' + 'E * x2' + 'w2'; 
-    static const gy1 = 'A * y1^5' + 'B * y1^4' + 'C * y1^3' + 'D * y1^2' + 'E * y1' + 'w3';
-    static const gy2 = 'A * y2^5' + 'B * y2^4' + 'C * y2^3' + 'D * y2^2' + 'E * y2' + "w1'";
-    static const gz1 = 'A * z1^5' + 'B * z1^4' + 'C * z1^3' + 'D * x1^2' + 'E * y1' + "w2'";
-    static const gz2 = 'A * z2^5' + 'B * z2^4' + 'C * z2^3' + 'D * z2^2' + 'E * z2' + "w3'";
+    static gx1 = 'A * x1^5' + 'B * x1^4' + 'C * x1^3' + 'D * x1^2' + 'E * x1' + 'w1';
+    static gx2 = 'A * x2^5' + 'B * x2^4' + 'C * x2^3' + 'D * x2^2' + 'E * x2' + 'w2'; 
+    static gy1 = 'A * y1^5' + 'B * y1^4' + 'C * y1^3' + 'D * y1^2' + 'E * y1' + 'w3';
+    static gy2 = 'A * y2^5' + 'B * y2^4' + 'C * y2^3' + 'D * y2^2' + 'E * y2' + "w1'";
+    static gz1 = 'A * z1^5' + 'B * z1^4' + 'C * z1^3' + 'D * x1^2' + 'E * y1' + "w2'";
+    static gz2 = 'A * z2^5' + 'B * z2^4' + 'C * z2^3' + 'D * z2^2' + 'E * z2' + "w3'";
+
 }
