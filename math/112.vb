@@ -1,3 +1,4 @@
+Imports System.math
 Class det
  det1 = 
 [1][0]
@@ -433,4 +434,5 @@ Sub SUM
 End Sub
 
 Console.WriteLine(DET,tri,ONE,Square,Pyramid,DETtri,triDET,ONEsquare,squareONE,oppoPyramid,dimPyramid)
+
 
