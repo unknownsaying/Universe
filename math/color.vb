@@ -130,6 +130,7 @@ console.WriteLine(element13,element14,element15,element16,element17,element18,el
 Imports System
 Imports System.Collections.Generic
 
+Module Red
 Public Interface IC1H4
     ReadOnly Property CarbonCount As Integer
     ReadOnly Property HydrogenCount As Integer
@@ -149,11 +150,10 @@ End Class
 
 Public Class C5H8
     Implements IC1H4
-
+          
     Public ReadOnly Property CarbonCount As Integer Implements IC1H4.CarbonCount
             Return 5
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC1H4.HydrogenCount
             Return 8
     End Property
@@ -161,17 +161,17 @@ End Class
 
 Public Class C13H24
     Implements IC1H4
-
+          
     Public ReadOnly Property CarbonCount As Integer Implements IC1H4.CarbonCount
             Return 13
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC1H4.HydrogenCount
             Return 24
     End Property
 End Class
+End Module
 
-Module Red
+Module Green
     Function GenerateC2H2() As IEnumerable(Of IC1H4)
         Dim result As New List(Of IC1H4)
         result.Add(New C1H4())
@@ -197,11 +197,9 @@ End Interface
 
 Public Class C2H2
     Implements IC2H2
-
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
             Return 2
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC2H2.HydrogenCount
             Return 2
     End Property
@@ -209,11 +207,9 @@ End Class
 
 Public Class C4H2
     Implements IC2H2
-
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
             Return 4
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC2H2.HydrogenCount
             Return 2
     End Property
@@ -221,15 +217,14 @@ End Class
 
 Public Class C6H2
     Implements IC2H2
-
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
             Return 6 
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC2H2.HydrogenCount
             Return 2
     End Property
 End Class
+End Module
 
 Module Blue
     Function GenerateC2H2() As IEnumerable(Of IC2H2)
@@ -248,6 +243,7 @@ Module Blue
         Console.ReadLine() ' Keep console window open
     End Sub
 End Module
+
 Console.WriteLine(C2H2,C4H2,C6H2)
 
 Public Interface IC2H4
@@ -255,43 +251,36 @@ Public Interface IC2H4
     ReadOnly Property HydrogenCount As Integer
 End Interface
 
-Public Class C2H4
+Class C2H4
     Implements IC2H4
-
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
             Return 2
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC2H2.HydrogenCount
             Return 4
     End Property
 End Class
 
-Public Class C6H8
+Class C6H8
     Implements IC2H4
-
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
             Return 6
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC2H2.HydrogenCount
             Return 8
     End Property
 End Class
 
-Public Class C6H2
+Class C6H2
     Implements IC2H4
-
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
             Return 14
     End Property
-
     Public ReadOnly Property HydrogenCount As Integer Implements IC2H2.HydrogenCount
             Return 12
     End Property
 End Class
 
-Module Green
     Function GenerateC2H2() As IEnumerable(Of IC2H4)
         Dim result As New List(Of IC2H4)
         result.Add(New C2H4())
@@ -337,5 +326,5 @@ const impact5 = "impact0 * impact1" + "impact2 * impact3"
 const impact6 = "impact1 - impact2" + "impact3 - impact4"
 const impact7 = "impact2 / impact3" + "impact4 / impact0"
 const impact8 = "impact3 % impact4" + "impact1 % impact2"
-Console.WriteLine(impact0, impact1, impact2, impact3, impact4, impact5, impact6, impact7, impact8)
 
+Console.WriteLine(impact0, impact1, impact2, impact3, impact4, impact5, impact6, impact7, impact8)
