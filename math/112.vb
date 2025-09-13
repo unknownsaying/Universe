@@ -411,7 +411,7 @@ Class square
                  [1][0][0][0][0][0][0][0][1], 
                  [1][0][0][0][0][0][0][0][1], 
                  [1][1][1][1][1][1][1][1][1]]
-End square
+End Class
 console.WriteLine(square3,square4,square5,square6,square7,square8,square9)
 
 const DET = det
@@ -434,5 +434,6 @@ Sub SUM
 End Sub
 
 Console.WriteLine(DET,tri,ONE,Square,Pyramid,DETtri,triDET,ONEsquare,squareONE,oppoPyramid,dimPyramid)
+
 
 
