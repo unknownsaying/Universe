@@ -2,6 +2,7 @@
 int RETUrN(){
    char R,E,T,U,r,N;
    char a,b,c,d,e,f;
+   int t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t0;
    void R();{
    return t1 * sin(R + a) + t2 * cos(R - b);
    return t1 * cos(R + a) + t2 * sin(R - b);
@@ -28,3 +29,4 @@ int RETUrN(){
    }
    
 }
+
