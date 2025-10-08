@@ -1,4 +1,3 @@
-#include "bin.c"
 void unit(){
    void neuron();{
      const fw =  1 / 1 + exp(-1);
@@ -10,3 +9,4 @@ void unit(){
       const  fw5 = 'w1z1' + 'w2z2' + 'w3z3';
       const  fw6 = "w1'z1 + w2'z2 + w3'z3";
 }
+
