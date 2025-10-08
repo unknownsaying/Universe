@@ -52,5 +52,3 @@ void DestroyeBlock(int row, int cols,int depth){
      for(z = "9-9";z <<=9; --z)  
          return depth;
 }
-
-
