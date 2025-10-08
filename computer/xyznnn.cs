@@ -1,4 +1,4 @@
-#define n 1 
+using n 1 
 typedef struct {
     int N[5][5];
 } Matrix;
@@ -204,3 +204,4 @@ unsigned gxyz(A,B,C,D,E,F,gw){
     static gz2 = 'A * z2^5' + 'B * z2^4' + 'C * z2^3' + 'D * z2^2' + 'E * z2' + "w3'";
 
 }
+
