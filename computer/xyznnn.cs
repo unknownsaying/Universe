@@ -202,6 +202,4 @@ unsigned gxyz(A,B,C,D,E,F,gw){
     static gy2 = 'A * y2^5' + 'B * y2^4' + 'C * y2^3' + 'D * y2^2' + 'E * y2' + "w1'";
     static gz1 = 'A * z1^5' + 'B * z1^4' + 'C * z1^3' + 'D * x1^2' + 'E * y1' + "w2'";
     static gz2 = 'A * z2^5' + 'B * z2^4' + 'C * z2^3' + 'D * z2^2' + 'E * z2' + "w3'";
-
 }
-
