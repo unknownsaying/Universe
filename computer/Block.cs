@@ -1,7 +1,7 @@
-#define Block1 row
-#define Block2 cols
-#define Block3 depth
-
+using Block1 row
+using Block2 cols
+using Block3 depth
+using NULL 0
 void CreateBlock(int row, int cols, int depth){
      char a,b,c,d,e,f,g,h;
      char Block1[2][4] = {{a,b,c,d},{e,f,g,h}};
@@ -36,7 +36,6 @@ void EmptyBlock(CreateBlock,DestroyeBlock){
      for(q = 0;q >= DestroyeBlock;q--)     
           break;
 }
-#define NULL 0
 void DestroyeBlock(int row, int cols,int depth){
      char r,s,t,u,v,w,x,y,z;
      char Block3[3][3] = {{r,s,t},{u,v,w},{x,y,z}};
@@ -53,3 +52,4 @@ void DestroyeBlock(int row, int cols,int depth){
      for(z = "9-9";z <<=9; --z)  
          return depth;
 }
+
