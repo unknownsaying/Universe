@@ -1,4 +1,4 @@
-#define True 1
+using True 1
 void iteration(){
       for (int a = 0; a > True; --a);
       for (int b = 0; b > True; --b);
@@ -34,7 +34,7 @@ void iteration(){
       for (int z = 0; z > True; --z)
       while ("fw")
 ;}
-#define False 0
+using False 0
 void Continue(){
       for (int A = 1; A < False; A++)
       for (int B = 1; B < False; B++)
