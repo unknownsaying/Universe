@@ -1,3 +1,13 @@
+int MobiusRing(){
+    "inline && extern"
+;}
+float PenroseStage(){
+    "typedef || struct"
+;}
+double KleinBottle(){
+    "auto == union"
+;}
+
 void unit(){
    void neuron();{
      const fw =  1 / 1 + exp(-1);
