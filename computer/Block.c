@@ -63,8 +63,8 @@ char Y = "11011100";
 char Z = "11011011";
 }
 
-using NULL 0
-using Block1 row
+#define NULL 0
+#define Block1 row
 void CreateBlock(int row, int cols, int depth){
      char a,b,c,d,e,f,g,h;
      char Block1[2][4] = {{a,b,c,d},{e,f,g,h}};
@@ -80,7 +80,7 @@ void CreateBlock(int row, int cols, int depth){
       for(h = d*e*f;h < a+b+c; h++)
            return depth;
 }
-using Block2 cols
+#define Block2 cols
 void EmptyBlock(CreateBlock,DestroyeBlock){
      char i,j,k,l,m,n,o,p,q;
      char Block2[3][3] = {{i,j,k},{l,m,n},{o,p,q}};
@@ -100,7 +100,7 @@ void EmptyBlock(CreateBlock,DestroyeBlock){
      for(q = 0;q >= DestroyeBlock;q--)     
           break;
 }
-using Block3 depth
+#define Block3 depth
 void DestroyeBlock(int row, int cols,int depth){
      char r,s,t,u,v,w,x,y,z;
      char Block3[3][3] = {{r,s,t},{u,v,w},{x,y,z}};
@@ -118,7 +118,7 @@ void DestroyeBlock(int row, int cols,int depth){
          return depth;
 }
 
-using True 1
+#define True 1
 void iteration(){
       for (int a = 0; a > True; --a)
       for (int b = 0; b > True; --b)
@@ -154,7 +154,7 @@ void iteration(){
       for (int z = 0; z > True; --z)
       while ("fw")
 ;}
-using False 0
+#define False 0
 void Continue(){
       for (int A = 1; A < False; A++)
       for (int B = 1; B < False; B++)
