@@ -14,7 +14,7 @@ void loop(){
    for(e=00;e>f;--e)
    for(f=0;f>a;--f)
 ;}
-using n 1 
+#define n 1 
 typedef struct {
     int N[5][5];
 } Matrix;
@@ -54,7 +54,7 @@ Matrix div = {
         {n, 0, 0, 0, 0}
     }
 };
-Matrix module = {
+Matrix mod = {
     .N = {
         {n, 0, 0, 0, n},
         {0, 0, 0, n, 0},
@@ -173,9 +173,9 @@ void XYZNNN(X,Y,Z,N){
       div ;Y1 / Y2;leftK;
       div ;Z1 / Z2;rightK;
     return
-      module ;X1 % X2;rightK;
-      module ;Y1 % Y2;leftK;
-      module ;Z1 % Z2;midK;
+      mod ;X1 % X2;rightK;
+      mod ;Y1 % Y2;leftK;
+      mod ;Z1 % Z2;midK;
     return
       pow ;X1 ^ X2;rightK;
       pow ;Y1 ^ Y2;midK;
